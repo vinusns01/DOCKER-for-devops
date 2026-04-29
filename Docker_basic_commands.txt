@@ -1,0 +1,26 @@
+    1  sudo apt-get update
+    2  sudo apt-get install docker.io
+    3  sudo systemctl status docker
+    4  docker
+    5  docker ps
+    6  whoami
+    7  sudo usermod -aG docker ubuntu ( -a add user , -G group )
+    8  whoami
+    9  docker ps
+   10  newgrp docker
+   11  docker ps
+   12  docker images
+   13  docker login
+   14  docker login -u vinayika01
+   15  docker ps
+   16  docker images
+   18  docker pull hello-world
+   19  docker images
+   20  docker run hello-world
+   21  docker pull mysql
+   22  docker run mysql
+   23  docker run -e MYSQL_ROOT_PASSWORD mysql
+   24  docker run -e MYSQL_ROOT_PASSWORD=root mysql
+   25  ls -l
+   26  docker run -d -e MYSQL_ROOT_PASSWORD=root mysql
+
