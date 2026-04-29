@@ -23,4 +23,5 @@
    24  docker run -e MYSQL_ROOT_PASSWORD=root mysql
    25  ls -l
    26  docker run -d -e MYSQL_ROOT_PASSWORD=root mysql
+   27  docker stop
 
